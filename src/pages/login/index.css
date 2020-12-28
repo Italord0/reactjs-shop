@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.719) ), url('../../assets/lojagif.gif') no-repeat; 
+  background-size: cover;
+  opacity: 50;
+
+  -webkit-font-smoothing: antialiased !important
+}
+
+body , input , button {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin: 80px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  width: 100%;
+  background: #ffffff38;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.content form {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content label {
+  width: 100%;
+  color: #fff;
+}
+
+.content input {
+  margin: 16px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.content button {
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  background: #1F4446;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background: #152e30;
+  font-weight: bold;
+}
